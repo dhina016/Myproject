@@ -1,0 +1,130 @@
+.heading{
+	width: 50%;
+	margin: 30px auto;
+	text-align: center;
+	color: 	#6B8E23;
+	background: #FFF8DC;
+	border: 2px solid #6B8E23;
+	border-radius: 20px;
+}
+form {
+	width: 50%; 
+	margin: 30px auto; 
+	border-radius: 5px; 
+	padding: 10px;
+	background: #FFF8DC;
+	border: 1px solid #6B8E23;
+}
+form p {
+	color: red;
+	margin: 0px;
+}
+.task_input {
+	width: 75%;
+	height: 15px; 
+	padding: 10px;
+	border: 2px solid #6B8E23;
+}
+.add_btn {
+	height: 39px;
+	background: #FFF8DC;
+	color: 	#6B8E23;
+	border: 2px solid #6B8E23;
+	border-radius: 5px; 
+	padding: 5px 20px;
+}
+
+table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+tr {
+	border-bottom: 1px solid #cbcbcb;
+}
+
+th {
+	font-size: 19px;
+	color: #6B8E23;
+}
+
+th, td{
+	border: none;
+    height: 30px;
+    padding: 2px;
+}
+
+tr:hover {
+	background: #E9E9E9;
+}
+
+.task {
+	text-align: left;
+}
+
+.delete{
+	text-align: center;
+}
+.delete a{
+	color: white;
+	background: #a52a2a;
+	padding: 1px 6px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+/* Container */
+.container{
+    width:40%;
+    margin:0 auto;
+}
+
+/* Login */
+#div_login{
+    border: 1px solid gray;
+    border-radius: 3px;
+    width: 470px;
+    height: 270px;
+    box-shadow: 0px 2px 2px 0px  gray;
+    margin: 0 auto;
+}
+
+#div_login h1{
+    margin-top: 0px;
+    font-weight: normal;
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    font-family: sans-serif;
+}
+
+#div_login div{
+    clear: both;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#div_login .textbox{
+    width: 96%;
+    padding: 7px;
+}
+
+#div_login input[type=submit]{
+    padding: 7px;
+    width: 100px;
+    background-color: lightseagreen;
+    border: 0px;
+    color: white;
+}
+
+/* media */
+@media screen and (max-width:720px){
+    .container{
+        width: 100%;
+    }
+    #div_login{
+        width: 99%;
+    }
+}
+

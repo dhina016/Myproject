@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+
+    "name": "Font Changer",
+    "description": "Change fonts on any page",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["content_script.js"]
+        }
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+       "tabs"
+    ],
+    "icons": {
+        "128": "icon128.png"
+    },
+    "page_action": {
+        "default_title": "Change fonts",
+        "default_icon": "icon_disabled.png",
+        "default_popup": "popup.html"
+    },
+    "content_security_policy": "script-src 'self' ; object-src 'self'"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Block Site",
+  "description": "Google Block",
+  "version": "1.0",
+  "permissions": [
+     "webRequestBlocking",
+     "webRequest",
+     "activeTab",
+     "tabs",
+     "http://*/*",
+     "https://*/*"
+  ],
+  "background" : {
+    "scripts":  [
+      "background.js"
+    ]
+  },
+  "manifest_version": 2
+}
